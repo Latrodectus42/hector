@@ -48,9 +48,9 @@ const gitterToSlack = () => {
 
             if (msg !== HEARTBEAT) {
                 const gitterData = JSON.parse(msg);
-                const userName = gitterData.fromUser.id;
+                const userId = gitterData.fromUser.id;
 
-                if (id !== USER_ID) {
+                if (userId !== USER_ID) {
                     axios.post(SLACK_WEBHOOK, { text: formatedSlackMessage( gitterData ) });
                 }
             }
