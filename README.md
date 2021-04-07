@@ -2,4 +2,4 @@
 
 The idea is to build a bot that passes messages between Slack and Gitter.
 
-You can find more about the <https://crowdsec/net|project here.>
+You can find more about the project here : https://medium.com
